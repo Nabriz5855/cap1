@@ -96,7 +96,7 @@ $username   = getenv('nabin');
 $password   = getenv('Riz2002#');
 $db_name     = getenv('nabin');
 $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
-#$sslcert   = getenv('DB_SSLCERT');
+$sslcert   = getenv('DB_SSLCERT');
 
 # LOCAL DECLARATION - for Testing only
 #$host       = 'SQLdbENDPOINT';
