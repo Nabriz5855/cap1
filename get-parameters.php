@@ -78,21 +78,21 @@ $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
  * #################################################################################################################################
  */
 
- /* <**********  DELETE THIS LINE IF YOU WANT TO ENABLE THIS SECTION    ****** 
+ 
 
 // ************ STUDENTS UPDATE ABOVE PARAMETER SECTION *********** //
 
 // *******************PARAMETER SECTION *************************** //
 
- */ ###############################======================> ADD  "star /" TO DISABLE SECTION 2 ( Remove "star /" in start of tis line )  <================================================#######################
+ // ###############################======================> ADD  "star /" TO DISABLE SECTION 2 ( Remove "star /" in start of tis line )  <================================================#######################
 
 
 
 // Configuration for database connection
 
 # REMOTE DECLARATION
-$host       = getenv('nabin');
-$username   = getenv('nabin');
+$host       = getenv('nabin.database.windows.net');
+$username   = getenv('Nabin.Rijal1@studytafensw.edu.au');
 $password   = getenv('Riz2002#');
 $db_name     = getenv('nabin');
 $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
