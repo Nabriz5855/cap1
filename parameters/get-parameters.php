@@ -91,9 +91,9 @@ $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 // Configuration for database connection
 
 # REMOTE DECLARATION
-$host       = getenv('nabin.database.windows.net');
+$host       = getenv('nabin.mysql.database.azure.com');
 $username   = getenv('Nabin.Rijal1@studytafensw.edu.au');
-$password   = getenv('Riz2002#');
+$password   = getenv('mnbvcxz1#');
 $db_name     = getenv('nabin');
 $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 $sslcert   = getenv('DB_SSLCERT');
