@@ -15,10 +15,10 @@
 // Configuration for database connection
 
 # REMOTE DECLARATION
-$host       = getenv('nabin.mysql.database.azure.com');
-$username   = getenv('nabin');
-$password   = getenv('mnbvcxz1#');
-$db_name     = getenv('nabin');
+$host       = getenv('DB_USERNAME');
+$username   = getenv('DB_USERNAME');
+$password   = getenv('DB_PASSWORD');
+$db_name     = getenv('DB_DATABASE');
 $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 $sslcert   = getenv('DB_SSLCERT');
 
